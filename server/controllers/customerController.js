@@ -104,7 +104,7 @@ exports.deleteCustomer = async (req, res) => {
 
 /**
  * POST /api/customers/search
- * Search customers by first or last name
+ * Search customers by first or last name or email
  */
 exports.searchCustomers = async (req, res) => {
   try {
